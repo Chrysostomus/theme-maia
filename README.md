@@ -1,7 +1,7 @@
 <img src="https://dl.dropboxusercontent.com/u/56336/omf/omf-logo-optimised.svg" align="left" width="144px" height="144px"/>
 
-#### Batman
-> A [Oh My Fish][omf-link] theme inspired by Batman.
+#### Maia
+> A [Oh My Fish][omf-link] theme modified from Batman theme to use maia colors and have simpler prompt.
 
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
 [![Fish Shell Version](https://img.shields.io/badge/fish-v2.2.0-007EC7.svg?style=flat-square)](http://fishshell.com)
@@ -11,24 +11,17 @@
 
 ## Features
 
-_From left to right:_
-
-+ `$HOME` directory abbreviated to `^^`
++ `$HOME` directory abbreviated to `~`
 + Path to current working directory is abbreviated.
 + Arrow symbol `>>>` becomes red if last `$status` was `!= 0`
-+ Display exit status for non zero codes (Not shown in the picture)
++ Display exit status for non zero codes
 + `^` character denotes the current repository has [_stashed_](https://git-scm.com/book/no-nb/v1/Git-Tools-Stashing) changes.
 + `*` character denotes the current repository is dirty.
 + Display current branch.
 + Display number of commits in relation to the current branch.
 + Display current time.
-+ _Batman_ inspired colors.
++ _Maia_ inspired colors.
 
-## Screenshot
-
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/8317250/7788702/8ae84014-0281-11e5-9082-f528002e45ed.png">
-</p>
 
 # License
 
