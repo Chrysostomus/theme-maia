@@ -1,12 +1,12 @@
 function fish_prompt
   test $status -ne 0;
     and set -l colors 600 900 c00
-    or set -l colors 333 666 aaa
+    or set -l colors 666 aaa 2B9
 
-  set -l pwd (prompt_pwd)
+  set -l pwd (pwd | sed "s|$HOME|~|g")
   set -l base (basename "$pwd")
 
-  set -l expr "s|~|"(fst)"^^"(off)"|g; \
+  set -l expr "s|~|"(fst)"~"(off)"|g; \
                s|/|"(snd)"/"(off)"|g;  \
                s|"$base"|"(fst)$base(off)" |g"
 
